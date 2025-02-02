@@ -1,0 +1,44 @@
+{
+  "name": "dc-chess-canvas",
+  "version": "1.0.0",
+  "description": "A simple package to create chess boards and pieces as images for discord",
+  "keywords": [
+    "chess",
+    "png",
+    "image",
+    "pieces",
+    "board",
+    "discord",
+    "discord chess"
+  ],
+  "homepage": "https://github.com/yourusername/dc-chess-canvas#readme",
+  "bugs": {
+    "url": "https://github.com/yourusername/dc-chess-canvas/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/dc-chess-canvas.git"
+  },
+  "license": "MIT",
+  "author": "Cyclone Addons",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "files": [
+    "src/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "canvas": "^3.1.0",
+    "canvas-to-buffer": "^4.1.0",
+    "chess.js": "^1.0.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {}
+}
